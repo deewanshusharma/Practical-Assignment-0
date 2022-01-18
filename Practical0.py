@@ -19,7 +19,7 @@ def encipher():
             res+=char
     textbox2.insert(0,res)
 
-#Function to convert plain text to cipher text
+#Function to convert cipher text to plain text
 def decipher():
     textbox1.delete(0,'end')
     plain=textbox2.get()
